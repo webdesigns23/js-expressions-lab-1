@@ -3,14 +3,40 @@
 ## Overview:
 This lab focuses on calculating the average temperature in the city of Rome over a 30-day period. Temperature data is provided for each day, with some temperatures in Celsius and some in Fahrenheit. The goal is to calculate the average temperature using only basic expressions, operators, and variable assignments in JavaScript.
 
-## Mocha Tests:
+### Mocha Tests:
+
+- When we want to run an experiment, we need to develop a hypothesis and we need to test it. In programming, we run tests to verify that programs behave the way
+we think they do. Tests help us identify bugs and judge how healthy our
+applications are. We use tests to describe the program's behavior, just as you would in a
+professional coding environment, and we also use them as teaching tools. You are
+in charge of getting the tests to pass.
 - Mocha tests have been provided to ensure the accuracy of temperature conversions and the correctness of the average temperature calculation.
 - In your terminal, once inside the lab folder, run in order:
     - `npm install` to install all the packages contained in the package.json
     - `npm test` to execute the tests and check whether your variables match the expectations
     - There are a total of 8 tests checking for the accuracy of tot_temperature_in_fahrenheit, tot_temperature_in_celsius, avg_temperature_in_fahrenheit, and avg_temperature_in_celsius
 
-## Instructions:
+### Structure
+
+The structure of this lab — where its files and folders are located — looks
+roughly like the following:
+
+```txt
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── README.md
+├── index.js
+├── node_modules/
+├── package.json
+└── test
+    └── indexTest.js
+```
+
+All labs will more or less have the same structure. (And non-lab lessons, for
+that matter, will still have CONTRIBUTING.md, LICENSE.md, and README.md files.)
+
+
+### Instructions:
 1. **Define Temperature Data:**
    - Data: 32°F, 25°C, 70°F, 18°C, 80°F, 15°C, 72°F, 28°C, 68°F, 20°C, 75°F, 23°C, 82°F, 30°C, 65°F, 22°C, 77°F, 26°C, 78°F, 24°C, 73°F, 21°C, 79°F, 27°C, 71°F, 19°C, 74°F, 17°C, 76°F, 29°C
    - Open the index.js file.
@@ -42,7 +68,7 @@ This lab focuses on calculating the average temperature in the city of Rome over
    4. In general, we use `node` followed by the path to the file we want to execute. If the file is in a folder, you can use `node folderName/fileName.js` to execute it. 
 
 
-## Submitting Your Solution:
+### Submitting Your Solution:
 - When you are done, submit your solution by saving your progress with git:
   1. Add your changes to the staging area by executing `git add .`
   2. Create a commit by executing `git commit -m "Your commit message"`
