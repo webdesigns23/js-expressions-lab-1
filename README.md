@@ -3,6 +3,13 @@
 ## Overview:
 This lab focuses on calculating the average temperature in the city of Rome over a 30-day period. Temperature data is provided for each day, with some temperatures in Celsius and some in Fahrenheit. The goal is to calculate the average temperature using only basic expressions, operators, and variable assignments in JavaScript.
 
+## Mocha Tests:
+- Mocha tests have been provided to ensure the accuracy of temperature conversions and the correctness of the average temperature calculation.
+- In your terminal, once inside the lab folder, run in order:
+    - `npm install` to install all the packages contained in the package.json
+    - `npm test` to execute the tests and check whether your variables match the expectations
+    - There are a total of 8 tests checking for the accuracy of tot_temperature_in_fahrenheit, tot_temperature_in_celsius, avg_temperature_in_fahrenheit, and avg_temperature_in_celsius
+
 ## Instructions:
 1. **Define Temperature Data:**
    - Data: 32°F, 25°C, 70°F, 18°C, 80°F, 15°C, 72°F, 28°C, 68°F, 20°C, 75°F, 23°C, 82°F, 30°C, 65°F, 22°C, 77°F, 26°C, 78°F, 24°C, 73°F, 21°C, 79°F, 27°C, 71°F, 19°C, 74°F, 17°C, 76°F, 29°C
@@ -34,13 +41,6 @@ This lab focuses on calculating the average temperature in the city of Rome over
    3. Run `node index.js` to execute your js file, you should see your logs in the terminal.
    4. In general, we use `node` followed by the path to the file we want to execute. If the file is in a folder, you can use `node folderName/fileName.js` to execute it. 
 
-
-## Mocha Tests:
-- Mocha tests have been provided to ensure the accuracy of temperature conversions and the correctness of the average temperature calculation.
-- In your terminal, once inside the lab folder, run in order:
-    - `npm install` to install all the packages contained in the package.json
-    - `npm test` to execute the tests and check whether your variables match the expectations
-    - There are a total of 8 tests checking for the accuracy of tot_temperature_in_fahrenheit, tot_temperature_in_celsius, avg_temperature_in_fahrenheit, and avg_temperature_in_celsius
 
 ## Submitting Your Solution:
 - When you are done, submit your solution by saving your progress with git:
