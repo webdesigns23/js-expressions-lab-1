@@ -69,16 +69,16 @@ that matter, will still have CONTRIBUTING.md, LICENSE.md, and README.md files.)
 - As you advance with your code, run the tests to check on your progress
 - Feel free to also place `console.log()` around your code to display the value of your variables. In order for you to execute your file, follow these steps:
 
-1. Check what files and folders are currently in your directory typing `ls` in your terminal.
-2. Do you see the index.js file? If not, use the command `cd` followed by the name of the folder to move into a folder or the `cd ..` command to move out of a folder until you see the index.js file.
-3. Run `node index.js` to execute your js file, you should see your logs in the terminal.
-4. In general, we use `node` followed by the path to the file we want to execute. If the file is in a folder, you can use `node folderName/fileName.js` to execute it.
+  1. Check what files and folders are currently in your directory typing `ls` in your terminal.
+  2. Do you see the index.js file? If not, use the command `cd` followed by the name of the folder to move into a folder or the `cd ..` command to move out of a folder until you see the index.js file.
+  3. Run `node index.js` to execute your js file, you should see your logs in the terminal.
+  4. In general, we use `node` followed by the path to the file we want to execute. If the file is in a folder, you can use `node folderName/fileName.js` to execute it.
 
 ### Submitting Your Solution:
 
 - When you are done, submit your solution by saving your progress with git:
 
-1.  Add your changes to the staging area by executing `git add .`
-2.  Create a commit by executing `git commit -m "Your commit message"`
-3.  Push your commits to GitHub by executing `git push origin main` or `git push origin master` depending on the name of your branch (use `git branch` to check on which branch you are).
-4.  Go to CodeGrade and link the repository to your assignment to submit your work.
+1. Add your changes to the staging area by executing `git add .`
+2. Create a commit by executing `git commit -m "Your commit message"`
+3. Push your commits to GitHub by executing `git push origin main` or `git push origin master` depending on the name of your branch (use `git branch` to check on which branch you are).
+4. Go to CodeGrade and link the repository to your assignment to submit your work.
